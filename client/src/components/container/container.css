@@ -1,0 +1,31 @@
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
+    border-radius: 10px;
+}
+
+.tools-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.brushsize-container select,
+.color-picker-container input {
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.board-container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 10px;
+}
